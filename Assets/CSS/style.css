@@ -1,0 +1,217 @@
+@import url(fonts.css);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: #0066ff;
+  --gray: #898989;
+  --fore-color: #fff;
+  --bg-color: #080808;
+}
+
+body {
+  transition: 500ms;
+  background-color: var(--fore-color);
+  overflow-x: hidden;
+  color: var(--bg-color);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.4rem 0.8rem;
+  z-index: 999;
+  background-color: var(--bg-color);
+  transition: 500ms;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.logo img {
+  max-width: 300px;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav #main-nav li {
+  margin: auto 0.7rem;
+}
+
+nav #main-nav li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.268rem;
+  position: relative;
+  text-decoration: none;
+  color: var(--fore-color);
+  font-size: 1.6rem;
+  font-family: "Urbanist-SB";
+  z-index: 1;
+  transition: 400ms;
+  border-radius: 999px;
+  padding: 0.8rem 1rem;
+}
+
+nav #main-nav li a svg {
+  color: var(--fore-color);
+  height: 35px;
+  width: 35px;
+  transition: 350ms;
+}
+
+nav #main-nav li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--fore-color);
+  z-index: -1;
+  transform: scaleX(0);
+  transition: 400ms;
+  border-radius: 999px;
+}
+
+nav #main-nav li a:hover::before {
+  transform: scaleX(1);
+}
+
+nav #main-nav li a:hover {
+  color: var(--bg-color);
+}
+
+nav #main-nav li a:hover svg {
+  color: var(--bg-color);
+}
+
+.dropdown {
+  display: none;
+  position: relative;
+  color: var(--fore-color);
+  cursor: pointer;
+}
+
+.hidden {
+  width: 40px;
+  height: 60px;
+  color: var(--fore-color);
+}
+
+.dropdown-menu {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 2rem);
+  background: var(--fore-color);
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  color: var(--bg-color);
+  padding: 0.75rem;
+  opacity: 0;
+  transition: 200ms;
+  transform: translateY(-15px);
+  pointer-events: none;
+}
+
+.dropdown-menu.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.dropdown-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+
+  li {
+    margin: auto 0.7rem;
+    width: 100%;
+  }
+}
+
+.dropdown-menu ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Urbanist-sb';
+  text-decoration: none;
+  font-size: 1.6rem;
+  width: 100%;
+  border-radius: 0;
+  gap: 0.3rem;
+  color: var(--bg-color);
+  padding: 0.5rem 1rem;
+  transition: 350ms;
+  border-radius: 10px;
+
+  svg {
+    color: var(--bg-color);
+    height: 35px;
+    width: 35px;
+    transition: 350ms;
+  }
+}
+
+.dropdown-menu ul li a:hover {
+  background: var(--bg-color);
+  color: var(--fore-color);
+
+  svg {
+    color: var(--fore-color);
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  header nav #main-nav {
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    margin-left: 0rem;
+  }
+
+  .logo img {
+    max-width: 220px;
+  }
+}

@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); /* Raleway */
+@import url('https://fonts.cdnfonts.com/css/nikea'); /* NIKEA font */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap'); /* Space Grotesk */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /* Fira Sans */
+
+/* --- Gilroy --- */
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-UltraLightItalic.ttf);
+  font-family: "Gilroy-ULI";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-UltraLight.ttf);
+  font-family: "Gilroy-UL";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-ThinItalic.ttf);
+  font-family: "Gilroy-TI";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-Thin.ttf);
+  font-family: "Gilroy-T";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-SemiboldItalic.ttf);
+  font-family: "Gilroy-SBI";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-Semibold.ttf);
+  font-family: "Gilroy-SB";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-RegularItalic.ttf);
+  font-family: "Gilroy-RI";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-Regular.ttf);
+  font-family: "Gilroy-R";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-MediumItalic.ttf);
+  font-family: "Gilroy-MI";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-Medium.ttf);
+  font-family: "Gilroy-M";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-LightItalic.ttf);
+  font-family: "Gilroy-LI";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-Light.ttf);
+  font-family: "Gilroy-L";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-HeavyItalic.ttf);
+  font-family: "Gilroy-HI";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-Heavy.ttf);
+  font-family: "Gilroy-H";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-ExtraboldItalic.ttf);
+  font-family: "Gilroy-EBI";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-Extrabold.ttf);
+  font-family: "Gilroy-EB";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-BoldItalic.ttf);
+  font-family: "Gilroy-BI";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-Bold.ttf);
+  font-family: "Gilroy-B";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-BlackItalic.ttf);
+  font-family: "Gilroy-BlackI";
+}
+@font-face {
+  src: url(../Fonts/Gilroy/Gilroy-Black.ttf);
+  font-family: "Gilroy-Black";
+}
+/* --- Urbanist --- */
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-ThinItalic.ttf);
+  font-family: "Urbanist-TI";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-Thin.ttf);
+  font-family: "Urbanist-T";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-SemiBoldItalic.ttf);
+  font-family: "Urbanist-SBI";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-SemiBold.ttf);
+  font-family: "Urbanist-SB";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-Regular.ttf);
+  font-family: "Urbanist-R";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-MediumItalic.ttf);
+  font-family: "Urbanist-MI";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-Medium.ttf);
+  font-family: "Urbanist-M";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-LightItalic.ttf);
+  font-family: "Urbanist-LI";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-Light.ttf);
+  font-family: "Urbanist-L";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-Italic.ttf);
+  font-family: "Urbanist-I";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-ExtraLightItalic.ttf);
+  font-family: "Urbanist-ELI";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-ExtraLight.ttf);
+  font-family: "Urbanist-EL";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-ExtraBoldItalic.ttf);
+  font-family: "Urbanist-EBI";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-ExtraBold.ttf);
+  font-family: "Urbanist-EB";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-BoldItalic.ttf);
+  font-family: "Urbanist-BI";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-Bold.ttf);
+  font-family: "Urbanist-B";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-BlackItalic.ttf);
+  font-family: "Urbanist-BlackI";
+}
+@font-face {
+  src: url(../Fonts/Urbanist/static/Urbanist-Black.ttf);
+  font-family: "Urbanist-Black";
+}
+
+/* Other Fonts */
+
+@font-face {
+  src: url(../Fonts/Other/Canva-sans\ regular.ttf);
+  font-family: 'Canva-Regular';
+}
+
+@font-face {
+  src: url(../Fonts/Other/Canva-sans\ medium.ttf);
+  font-family: 'Canva-Medium';
+}
+
+@font-face {
+  src: url(../Fonts/Other/Canva-sans\ bold.ttf);
+  font-family: 'Canva-Bold';
+}
+
+@font-face {
+  src: url(../Fonts/Other/WFVisualSansVF.ttf);
+  font-family: 'WF-Sans';
+}
