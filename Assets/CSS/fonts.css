@@ -179,3 +179,13 @@
   src: url(../Fonts/Other/WFVisualSansVF.ttf);
   font-family: 'WF-Sans';
 }
+
+@font-face {
+  src: url(../Fonts/Other/soul-daisy.regular.ttf);
+  font-family: 'Soul Daisy';
+}
+
+@font-face {
+  src: url(../Fonts/Other/TestSohneBreitItalic.otf);
+  font-family: 'Sohne';
+}
