@@ -207,6 +207,7 @@
     background: var(--fore-color);
     color: var(--bg-color);
     margin-bottom: 4rem;
+    overflow-x: hidden;
 }
 
 .single-section {
